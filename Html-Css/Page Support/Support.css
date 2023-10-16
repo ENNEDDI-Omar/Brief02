@@ -42,12 +42,14 @@ ul.list {
     display: flex;
     flex-direction: column;
     color: #0A8080;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: bold;
 
 }
 
 .login {
     display: flex;
-    gap: 5%;
+    gap: 5px;
 }
 
 
