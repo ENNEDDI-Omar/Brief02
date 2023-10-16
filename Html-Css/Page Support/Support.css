@@ -110,9 +110,6 @@ h3{
     border-radius: 20px;
 
 }
-
-
-
 form {
     background-color: #FFF5ED;
     padding: 2rem;
@@ -120,11 +117,13 @@ form {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    border: none;
     
 
 }
 
 .input-field {
+    border: none;
     margin: 10px;
     background-color: #D9D9D9;
     border-radius: 20px;
@@ -132,13 +131,27 @@ form {
     height: auto;
     padding: 15px;
     font-size: 16px;
+    font-weight: 600;
+    color: black;
 
 }
+input::placeholder {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 16px;
+    font-size: medium;
+    color: black;
+}
+textarea::placeholder {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 16px;
+    font-size: larger;
+    color: black;
+}
+
 
 .fiel {
+    border: none;
     background-color: #D9D9D9;
-    font-size: 16px;
-    margin: 10px;
     border-radius: 20px;
     width: 620px;
     height: auto;
@@ -159,6 +172,7 @@ form {
 }
 #fn{
     width: 60%;
+    
 }
 #ent {
     width: 40%;
@@ -171,7 +185,7 @@ footer {
 
 .footer-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 
 }
 .footer-col1 h5{
