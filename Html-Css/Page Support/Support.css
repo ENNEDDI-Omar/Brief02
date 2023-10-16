@@ -32,6 +32,10 @@ ul.list {
     display: flex;
     gap: 1rem;
 }
+#fleche {
+    position: relative;
+    right: 15px;
+}
 
 .logo_list {
     display: flex;

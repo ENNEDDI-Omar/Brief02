@@ -28,7 +28,12 @@ nav {
 
 }
 
-ul.list {
+#fleche{
+    position: relative;
+    right: 15px;
+}
+
+.list {
     display: flex;
     gap: 1rem;
 }
@@ -70,32 +75,76 @@ ul.list {
 h3{
     padding: 1rem;
 }
+main {
+    display: flex;
+    justify-content: center;
+}
 .groups {
     
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     align-items: center;
-    height: 700px;
-    width: 100%;
-    background-color: red;
+    width: 85%;
+    padding: 26px;
+    /* border: 1px solid black; */
 }
 .G1,.G2,.G3,.G4,.G5,.G6{
     width: 400px;
     height: auto;
-    border: 1px solid black;
-   text-align: center;
+    text-align: center;
     padding: 20px;
 }
 .text {
     background-color: #EFE2DA;
-    padding: 1rem;
-    border-top-right-radius: 511%;
-    border-top-left-radius: 511%;
-    border-bottom-left-radius: 511%;
-    border-bottom-right-radius: 511%;
+    padding: 3rem;
+    border-top-right-radius: 211%;
+    border-top-left-radius: 211%;
+    border-bottom-left-radius: 211%;
+    border-bottom-right-radius: 211%;
+    height: 200px;
     
 }
+
 .btn {
     margin: 10px;
 }
+.footer_container{
+  
+background-image: url(subscirbe.png);
+margin: 1rem;
+display: flex;
+justify-content: space-around;
+height: 40vh;
+}
+.btn {
+    background-color: #DB4A87;
+    color: #ffffff;
+    
+    
+}
+#frm {
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    
+}
+.bloc_sub {
+    background-color: azure;
+    margin: 9px;
+    width: 922px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+.footer_txt b{
+   
+    text-align: left;
+    font-family: 'B612', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+
