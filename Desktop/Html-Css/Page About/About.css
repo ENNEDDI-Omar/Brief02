@@ -3,11 +3,10 @@
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
-    
-    
-}
-nav{
-
+    text-decoration: none;
+}nav{
+    padding: 1rem;
+    margin: auto;
     width: 100%;
     height: 100%;
     display: flex;
@@ -19,6 +18,7 @@ nav{
     font-family: 'Noto Sans Tagalog', sans-serif;
     font-weight: 400;
     line-height: 1.5rem;
+    margin: 5%;
     
     
 }.logo{
@@ -40,7 +40,7 @@ nav{
 }main{
     width: 100%;
     height: 100%;
-    margin: 5%;
+    margin: auto;
     padding: 0%;
 
 }.aboutcontenu h2{
@@ -49,10 +49,9 @@ nav{
     font-weight: bolder;
     display: flex;
     justify-content: center;
+    padding: 7% 0% 0% 0%;
 
-}
-
-.getstarted {
+}.getstarted {
 
     display: flex;
     flex-direction: column;
@@ -63,6 +62,7 @@ nav{
 }.textes{
      display: flex;
      padding: 120px;
+     margin: auto;
      
 }h3{
     display: flex;
@@ -85,8 +85,8 @@ nav{
 }.footer-container{
     
     
-    padding: 10%;
-    margin: 0%;
+    padding: 0%;
+    margin: 0% 0% 5% 5%;
     width: auto;
     display: flex;
     flex-direction: row;
