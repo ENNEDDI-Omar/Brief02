@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+section{
+    padding: 10% 14%;
+}
+
+body{
+    color: white;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 12%;
+    background-color: red;
+    width: 100%;
+    position: fixed;
+}
+
+header a{
+    color: white;
+}
+
+ul {
+    display: flex;
+    gap: 1.5rem;
+    
+}
+
+
+
+.btn{
+    display: flex;
+    gap: 1.5rem;
+}
+
+
+.home{
+    background-color: rgb(22, 2, 41);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+}
+
+.img img{
+    width: 70%;
+    height: auto;
+    
+}
+
+
+.details h1{
+    font-size: 40px;
+}
+
+.details p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.social a i{
+    font-size: 25px;
+    color: white;
+    transition: all .4s ease;
+}
+
+.social a i:hover{
+    color: red;
+}
+
+.home button{
+    color: white;
+    border: none;
+    background-color: red;
+    padding: 15px 30px;
+    border-radius: 5px;
+}
